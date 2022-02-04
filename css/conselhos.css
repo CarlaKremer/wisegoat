@@ -19,7 +19,7 @@
   margin-bottom: 40px
 }
 
-.fundo{
+.background{
   height: 500px;
   width: 940px;
   background-color: #ece3e0;
@@ -30,30 +30,35 @@
 a{
   text-decoration: none; 
 }
-
 img{
   display: inline-block;
   border-radius: 15px;
 }
 
-#goat-quote{
+.quote-author{
   display: inline-block;
+  vertical-align:top;
+  position: absolute;
+  margin: 0 auto; 
+  width: 400px;
+  top: 50%;
+  left: 68%;
+  transform: translate(-50%, -50%);
+}
+
+
+#author{
   position: relative;
   font-family:'Roboto', sans-serif;
   color: #9a7a6e;
   font-size: 40px;
-  bottom: 30%;
-  left: 40%
+  text-align: end;
 }
 
-#frase{
-  display: inline-block;
-  vertical-align: top;
-  position: absolute;
-  top:40%;
-  left: 40%;
+#quote{
   font-family: 'Roboto', sans-serif;
   color: #72005F;
   font-size: 40px;
   font-weight: 500;
+  display: inline-block;
 }

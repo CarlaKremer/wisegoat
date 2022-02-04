@@ -6,7 +6,7 @@ function get(url){
 
 const API = { get };
 
-const quoteP = document.querySelector("h2#frase");
+const quoteP = document.querySelector("h2#quote");
 
 function getQuotes(){
     API.get(API_URL).then(data=>addQuote(
@@ -14,8 +14,8 @@ function getQuotes(){
         console.log(API_URL)
 }
 
-function addQuote(frase){
-    quoteP.innerText = '"'+frase +'"';
+function addQuote(quote){
+    quoteP.innerText = '"'+quote +'"';
 }
 
-window.onload = getQuotes
+window.onload = getQuotes;
