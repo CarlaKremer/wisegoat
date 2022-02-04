@@ -19,6 +19,7 @@ button{
   display: inline-block;
   position:relative;
   vertical-align:bottom;
+  padding-right: 50px;
 }
 
 main{
@@ -36,4 +37,14 @@ main{
 img{
   height: 450px;
   width: 400px;
+}
+
+.wise-goat-img{
+    width: 780px;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }

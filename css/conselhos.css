@@ -22,22 +22,38 @@
 .fundo{
   height: 500px;
   width: 940px;
-  background-color: #BAA193;
+  background-color: #ece3e0;
 	position: relative;
 	margin: auto;
 }
 
-img{
-  display: inline-block;
+a{
+  text-decoration: none; 
 }
 
-.frase{
+img{
+  display: inline-block;
+  border-radius: 15px;
+}
+
+#goat-quote{
+  display: inline-block;
+  position: relative;
+  font-family:'Roboto', sans-serif;
+  color: #9a7a6e;
+  font-size: 40px;
+  bottom: 30%;
+  left: 40%
+}
+
+#frase{
   display: inline-block;
   vertical-align: top;
   position: absolute;
-  top:45%;
-  left: 45%;
+  top:40%;
+  left: 40%;
   font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-  font-weight: 300;
+  color: #72005F;
+  font-size: 40px;
+  font-weight: 500;
 }
