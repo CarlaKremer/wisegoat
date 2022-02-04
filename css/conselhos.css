@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap');
+
+.wise{
+  font-size: 30px;
+  color:#BAA193;
+}
+.goat{
+  font-size: 70px;
+  color: #72005F;
+}
+
+.wise-goat{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  display: block;
+  position:relative;
+  left: 20px;
+  top:10px;
+  margin-bottom: 40px
+}
+
+.fundo{
+  height: 500px;
+  width: 940px;
+  background-color: #BAA193;
+	position: relative;
+	margin: auto;
+}
+
+img{
+  display: inline-block;
+}
+
+.frase{
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  top:45%;
+  left: 45%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
